@@ -26,3 +26,11 @@ body
 	background-color: cyan;
 }
 
+.portrait
+{
+	float: left;
+	width: 200px;
+	height: 200px;
+	background-color: red;
+}
+
