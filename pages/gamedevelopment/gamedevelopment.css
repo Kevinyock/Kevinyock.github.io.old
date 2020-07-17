@@ -20,11 +20,12 @@
 	background-color: gray;
 }
 
-.mainHeader
+.Star.wars.theme.game
 {
 	text-align: center;
-	padding: 5px 0px;
+	/*padding: 5px 0px;*/
 }
+
 /* body style */
 body 
 {
@@ -33,7 +34,6 @@ body
 
 .copyright footer
 {
-	position: fixed;
 	left: 0;
 	bottom: 0;
 	width: 100%;
