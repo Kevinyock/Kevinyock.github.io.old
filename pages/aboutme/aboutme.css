@@ -32,6 +32,12 @@ body
 	width: 200px;
 	height: 200px;
 	background-color: red;
+	text-align: center;
+}
+
+.aboutme
+{
+	text-align: center;
 }
 
 .copyright footer

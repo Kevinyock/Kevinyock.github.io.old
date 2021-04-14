@@ -17,24 +17,30 @@
 
 .topnav a:hover
 {
-	background-color: black;
+	background-color: gray;
 }
 
-.Construction
+.Section.Introduction
 {
 	text-align: center;
 }
+.Star.wars.theme.game
+{
+	text-align: center;
+	/*padding: 5px 0px;*/
+}
+
 /* body style */
 body 
 {
-	background-color: cyan;
+	background-color: white;
 }
 
 .copyright footer
 {
-	position: fixed;
 	left: 0;
 	bottom: 0;
 	width: 100%;
 	text-align: center;
 }
+
