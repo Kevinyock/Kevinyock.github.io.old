@@ -2,30 +2,40 @@
 <!--This is a HTML Page-->
 <html>
 <!-- Title section -->
-<title>Home Page</title>
+<title>Home</title>
 <!-- CSS reference -->
 <head>
-<link rel = "stylesheet" type = "text/css" href = "base.css">
+<link rel = "stylesheet" type = "text/css" href = "index.css">
 </head>
 <!-- Body -->
 <body>
-<div class = "topBanner">
-</div>
-<div class = "topnav">
-	<a class = "active" href = "index.html"> Home </a>
-	<a href = "pages/projects/projects.html"> Projects </a>
+
+<div class="navbar">
+	<a href="index.html"> Home </a>
+
+	<div class="dropdown">
+		<button class="dropbtn"> Projects
+			<i class="fa fa-caret-down"></i>
+		</button>
+		<div class ="dropdown-content">
+			<a href="pages/projects/project-star-dust/stardust.html"> Star Wars Theme Dungeon </a>
+			<a href="pages/projects/grade-check/grade-check.html"> Grade Check </a>
+		</div>
+	</div>
+	
 	<a href = "https://github.com/Kevinyock"> My Github </a>
 	<a href = "pages/aboutme/aboutme.html"> About Me </a>
 	<a href = "pages/contactme/contactme.html"> Contact Me </a>
 </div>
 
-<h1>Hello World </h1>
-<p>Welcome to my personal website. </p>
-<p>Here you see some of things I have done over my life </p>
+	<p>Welcome to my personal website. </p>
+	<p>Here you see some of things I have done over my life </p>
 </body>
+
 <div class = "copyright" >
-<footer>
-<p>©2022 Kevin Do </p>
-</footer>
+	<footer>
+		<p>©2022 Kevin Do </p>
+	</footer>
 </div>
+
 </html>

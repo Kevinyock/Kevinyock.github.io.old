@@ -67,3 +67,7 @@
 .dropdown:hover .dropdown-content {
 	display: block;
 }
+
+p {
+	text-align: center;
+}
