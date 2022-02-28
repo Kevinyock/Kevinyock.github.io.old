@@ -72,6 +72,12 @@
 	text-align: center;
 }
 
+img {
+	width: 20%;
+	height: 20%;
+}
+
+
 .copyright footer
 {
 	left: 0;
