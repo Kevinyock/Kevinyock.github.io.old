@@ -75,3 +75,10 @@ p {
 .email {
 	text-align: center;
 }
+
+.copyright{
+	position: fixed;
+	width: 100%;
+	bottom: 0%;
+	text-align: center;
+}
