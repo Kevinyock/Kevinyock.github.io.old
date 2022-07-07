@@ -77,9 +77,26 @@ p {
 	color: white;
 }
 
-.email {
-	text-align: center;
+.emailcontainer {
+	margin: auto;
+	width: 30%;
+	height: 30%;
+	background: #6BB9E0;
+	align-items: center;
+	justify-content: center;
 }
+
+form {
+	background: #6BB9E0;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding: 2vw 4vw;
+	width: 90%;
+	max-width: 600 px;
+	border-radius: 10px;
+}
+
 
 .copyright footer{
 	position: fixed;

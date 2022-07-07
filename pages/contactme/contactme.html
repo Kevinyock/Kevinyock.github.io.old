@@ -24,17 +24,48 @@
 	</div>
 	
 	<a href = "https://github.com/Kevinyock">
-	<img alt="My Github" src="..\..\Icons\GitHub-Mark\PNG\GitHub-Mark-Light-16px.png"
+	<img alt="My Github" src="..\..\Icons\GitHub-Mark\PNG\GitHub-Mark-Light-16px.png">
 	</a>
+
 	<a href = "../aboutme/aboutme.html"> About Me </a>
 	<a href = "contactme.html"> Contact Me </a>
 </div>
 
+ <br>
 
-<div class = "email">
-<a href = "mailto: westminsterkevindo@gmail.com"> Contact Me </a>
+<div class ="emailcontainer" > 
+	<form onsubmit="sendEmail(); reset(); return false">
 
+		<h3> Contact Me</h3>
+		<label for = "subject"> Subject: </label>
+		<input type = "text" id ="subject" name ="subject" required>
+		<br>
+		<label for = "email"> Email:</label>
+		<input type = "text" id = "email" name = "email" required>
+		<br>
+		<label for= "message"> Message:</label>
+		<br>
+		<textarea rows = "5" id = "message" name = "message" required></textarea>
+		<br>
+
+		<button type = "submit"> Send Email </button>
+
+		<script src="https://smtpjs.com/v3/smtp.js"></script>
+		<script>
+			function sendEmail(){
+				Email.send({
+    			SecureToken : "",
+    			To : '',
+    			From : document.getElementById("email").value,
+    			Subject : document.getElementById("subject").value,
+    			Body : document.getElementById("message").value
+				}).then(
+  				message => alert(message)
+				);}
+		</script>
+	</form>
 </div>
+
 
 </body>
 
